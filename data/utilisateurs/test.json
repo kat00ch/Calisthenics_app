@@ -1,0 +1,11 @@
+[
+  {
+    "id": "user_1",
+    "nom": "test",
+    "date_debut": "2025-06-10",
+    "points_totaux": 90,
+    "niveau": 1,
+    "progression_objectifs": {},
+    "historique_sessions": []
+  }
+]
