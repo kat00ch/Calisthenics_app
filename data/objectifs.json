@@ -1,0 +1,10 @@
+[
+  {
+    "id": "string",
+    "nom": "string",
+    "description": "string",
+    "points_totaux_requis": 0,
+    "exercices_associes": ["exercice_id"],
+    "bonus_recompense": "string"
+  }
+]

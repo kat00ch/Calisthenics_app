@@ -1,0 +1,72 @@
+[
+  {
+    "id": "M01",
+    "nom": "Junk Food",
+    "description": "Consommation de nourriture industrielle ou sucrée en excès.",
+    "points_perdus": 10,
+    "conditions_declenchement": "Déclaré par l'utilisateur ou détecté dans un journal alimentaire."
+  },
+  {
+    "id": "M02",
+    "nom": "Jour sans activité",
+    "description": "Aucune activité physique enregistrée pendant la journée.",
+    "points_perdus": 5,
+    "conditions_declenchement": "Aucune session ou pas de mouvement détecté dans la journée."
+  },
+  {
+    "id": "M03",
+    "nom": "Objectif ignoré",
+    "description": "Objectif journalier non réalisé ou ignoré.",
+    "points_perdus": 8,
+    "conditions_declenchement": "Objectif quotidien présent mais non complété."
+  },
+  {
+    "id": "M04",
+    "nom": "Sommeil insuffisant",
+    "description": "Moins de 6 heures de sommeil enregistrées.",
+    "points_perdus": 7,
+    "conditions_declenchement": "Importé depuis application connectée ou renseigné manuellement."
+  },
+  {
+    "id": "M05",
+    "nom": "Retard de session",
+    "description": "Démarrage de la séance plus de 2 heures après l'heure prévue.",
+    "points_perdus": 4,
+    "conditions_declenchement": "Heure prévue vs heure réelle de la session."
+  },
+  {
+    "id": "M06",
+    "nom": "Abandon d'exercice",
+    "description": "Exercice interrompu sans aller jusqu’au bout.",
+    "points_perdus": 6,
+    "conditions_declenchement": "Interruption manuelle de l'exercice ou session incomplète."
+  },
+  {
+    "id": "M07",
+    "nom": "Trop de pauses",
+    "description": "Trop de pauses longues durant une session.",
+    "points_perdus": 5,
+    "conditions_declenchement": "Pause cumulée > 10 minutes pendant une session courte (<30min)."
+  },
+  {
+    "id": "M08",
+    "nom": "Excès d'entraînement",
+    "description": "Trop d'entraînements intenses sans repos.",
+    "points_perdus": 9,
+    "conditions_declenchement": "Plus de 5 jours d'entraînement consécutifs sans repos."
+  },
+  {
+    "id": "M09",
+    "nom": "Échec de challenge",
+    "description": "Challenge hebdomadaire ou spécial non relevé.",
+    "points_perdus": 12,
+    "conditions_declenchement": "Échec de validation d’un challenge actif avant la date limite."
+  },
+  {
+    "id": "M10",
+    "nom": "Non-suivi des recommandations",
+    "description": "Recommandations de récupération ou d’échauffement ignorées.",
+    "points_perdus": 3,
+    "conditions_declenchement": "Utilisateur passe une étape marquée comme obligatoire (échauffement, retour au calme, etc.)"
+  }
+]

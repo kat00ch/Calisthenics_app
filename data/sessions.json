@@ -1,0 +1,17 @@
+[
+  {
+    "id": "string",
+    "date": "YYYY-MM-DD",
+    "utilisateur_id": "string",
+    "exercices_realises": [
+      {
+        "exercice_id": "string",
+        "repetitions": 0,
+        "duree_s": 0
+      }
+    ],
+    "malus": ["malus_id"],
+    "points_totaux_gagnes": 0,
+    "points_totaux_perdus": 0
+  }
+]

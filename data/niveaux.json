@@ -1,0 +1,32 @@
+[
+  {
+    "niveau": 1,
+    "points_requis": 0,
+    "exercices_debloques": ["ex001", "ex003", "ex004", "ex010"],
+    "exercices_speciaux_debloques": []
+  },
+  {
+    "niveau": 2,
+    "points_requis": 100,
+    "exercices_debloques": ["ex002", "ex006", "ex007"],
+    "exercices_speciaux_debloques": []
+  },
+  {
+    "niveau": 3,
+    "points_requis": 250,
+    "exercices_debloques": ["ex005"],
+    "exercices_speciaux_debloques": []
+  },
+  {
+    "niveau": 4,
+    "points_requis": 400,
+    "exercices_debloques": [],
+    "exercices_speciaux_debloques": ["ex008"]
+  },
+  {
+    "niveau": 5,
+    "points_requis": 600,
+    "exercices_debloques": [],
+    "exercices_speciaux_debloques": ["ex009"]
+  }
+]

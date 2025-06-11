@@ -1,0 +1,21 @@
+[
+  {
+    "challenge_id": "string",
+    "titre": "string",
+    "type": "quotidien",
+    "date_debut": "YYYY-MM-DD",
+    "date_fin": "YYYY-MM-DD",
+    "conditions": [
+      {
+        "exercice_id": "string",
+        "objectif_id": "string",
+        "type": "repetitions",
+        "valeur_cible": 0
+      }
+    ],
+    "recompense": {
+      "points": 0,
+      "bonus_special": "string"
+    }
+  }
+]

@@ -1,0 +1,102 @@
+[
+  {
+    "id": "ex001",
+    "nom": "Pompes sur les genoux",
+    "description": "Une version modifiée des pompes classiques pour les débutants. Renforce la poitrine, les triceps et les épaules.",
+    "points_par_repetition": 1,
+    "points_par_duree_seconde": 0,
+    "niveau_minimum": 1,
+    "categorie": "force",
+    "special": false
+  },
+  {
+    "id": "ex002",
+    "nom": "Pompes classiques",
+    "description": "Exercice de base au poids du corps sollicitant la poitrine, les triceps et les épaules.",
+    "points_par_repetition": 2,
+    "points_par_duree_seconde": 0,
+    "niveau_minimum": 2,
+    "categorie": "force",
+    "special": false
+  },
+  {
+    "id": "ex003",
+    "nom": "Planche ventrale",
+    "description": "Exercice isométrique sollicitant le gainage global du tronc.",
+    "points_par_repetition": 0,
+    "points_par_duree_seconde": 1,
+    "niveau_minimum": 1,
+    "categorie": "gainage",
+    "special": false
+  },
+  {
+    "id": "ex004",
+    "nom": "Squats au poids du corps",
+    "description": "Renforce les jambes et les fessiers. Peut être pratiqué partout.",
+    "points_par_repetition": 1,
+    "points_par_duree_seconde": 0,
+    "niveau_minimum": 1,
+    "categorie": "force",
+    "special": false
+  },
+  {
+    "id": "ex005",
+    "nom": "Pompes diamants",
+    "description": "Variation ciblant particulièrement les triceps et le centre de la poitrine.",
+    "points_par_repetition": 3,
+    "points_par_duree_seconde": 0,
+    "niveau_minimum": 3,
+    "categorie": "force",
+    "special": false
+  },
+  {
+    "id": "ex006",
+    "nom": "Gainage latéral",
+    "description": "Travaille les obliques et améliore la stabilité latérale du tronc.",
+    "points_par_repetition": 0,
+    "points_par_duree_seconde": 1,
+    "niveau_minimum": 2,
+    "categorie": "gainage",
+    "special": false
+  },
+  {
+    "id": "ex007",
+    "nom": "Dips entre deux chaises",
+    "description": "Renforce les triceps, les épaules et la poitrine en utilisant des chaises.",
+    "points_par_repetition": 2,
+    "points_par_duree_seconde": 0,
+    "niveau_minimum": 2,
+    "categorie": "force",
+    "special": false
+  },
+  {
+    "id": "ex008",
+    "nom": "Pike push-ups",
+    "description": "Préparation aux handstand push-ups. Cible les épaules.",
+    "points_par_repetition": 3,
+    "points_par_duree_seconde": 0,
+    "niveau_minimum": 4,
+    "categorie": "force",
+    "special": true
+  },
+  {
+    "id": "ex009",
+    "nom": "Wall handstand hold",
+    "description": "Tenue en handstand contre un mur. Renforce épaules, gainage, et améliore l'équilibre.",
+    "points_par_repetition": 0,
+    "points_par_duree_seconde": 2,
+    "niveau_minimum": 5,
+    "categorie": "équilibre",
+    "special": true
+  },
+  {
+    "id": "ex010",
+    "nom": "Jumping jacks",
+    "description": "Exercice cardio simple qui augmente la fréquence cardiaque et échauffe le corps.",
+    "points_par_repetition": 1,
+    "points_par_duree_seconde": 0,
+    "niveau_minimum": 1,
+    "categorie": "cardio",
+    "special": false
+  }
+]

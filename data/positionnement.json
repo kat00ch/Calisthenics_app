@@ -1,0 +1,19 @@
+[
+  {
+    "test_id": "string",
+    "questions": [
+      {
+        "question": "string",
+        "type": "exercice",
+        "exercice_id": "string",
+        "seuils": [
+          {
+            "valeur_min": 0,
+            "valeur_max": 10,
+            "niveau_estime": 1
+          }
+        ]
+      }
+    ]
+  }
+]
