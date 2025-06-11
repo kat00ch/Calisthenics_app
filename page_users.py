@@ -17,13 +17,13 @@ def afficher_utilisateurs(parent, on_select_user):
     frame_liste_utilisateurs = ctk.CTkFrame(parent)
     frame_liste_utilisateurs.pack(pady=5)
 
-    if not os.path.exists("data/utilisateurs"):
-        os.makedirs("data/utilisateurs")
+    if not os.path.exists("Calisthenics_app/data/utilisateurs"):
+        os.makedirs("Calisthenics_app/data/utilisateurs")
 
     all_users_data = []
-    for user_file in os.listdir("data/utilisateurs"):
+    for user_file in os.listdir("Calisthenics_app/data/utilisateurs"):
         if user_file.endswith(".json"):
-            with open(os.path.join("data/utilisateurs", user_file), "r", encoding="utf-8") as f:
+            with open(os.path.join("Calisthenics_app/data/utilisateurs", user_file), "r", encoding="utf-8") as f:
                 try:
                     data_utilisateurs = json.load(f)
                 except:
@@ -56,11 +56,11 @@ def ouvrir_creation_joueur(parent, on_select_user, bouton_nouveau_joueur):
     entry_nom.pack(pady=5)
 
     def creer_et_sauver_joueur():
-        id_joueur = f"user_{len(os.listdir('data/utilisateurs')) + 1}"
+        id_joueur = f"user_{len(os.listdir('Calisthenics_app/data/utilisateurs')) + 1}"
         nom_joueur = entry_nom.get()
         date_debut = datetime.datetime.now().strftime("%Y-%m-%d")
         nouveau_joueur = creer_joueur(nom_joueur, id_joueur, date_debut)
-        path_utilisateur = f"data/utilisateurs/{nom_joueur}.json"
+        path_utilisateur = f"Calisthenics_app/data/utilisateurs/{nom_joueur}.json"
 
         if not os.path.exists(path_utilisateur):
             data_utilisateurs = []

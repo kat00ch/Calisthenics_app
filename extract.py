@@ -111,28 +111,28 @@ def charger_json(path: str):
             return result
 
 def extraire_infos():
-    exercices_data = charger_json("data/exercices.json")
+    exercices_data = charger_json("Calisthenics_app/data/exercices.json")
     exercices = [Exercice(**e) for e in exercices_data]
 
-    malus_data = charger_json("data/malus.json")
+    malus_data = charger_json("Calisthenics_app/data/malus.json")
     malus = [Malus(**m) for m in malus_data]
 
-    objectifs_data = charger_json("data/objectifs.json")
+    objectifs_data = charger_json("Calisthenics_app/data/objectifs.json")
     objectifs = [Objectif(**o) for o in objectifs_data]
 
-    sessions_data = charger_json("data/sessions.json")
+    sessions_data = charger_json("Calisthenics_app/data/sessions.json")
     sessions = [Session(**s) for s in sessions_data]
 
-    utilisateurs_data = charger_json("data/utilisateurs.json")
+    utilisateurs_data = charger_json("Calisthenics_app/data/utilisateurs.json")
     utilisateurs = [Utilisateur(**u) for u in utilisateurs_data]
 
-    challenges_data = charger_json("data/challenges.json")
+    challenges_data = charger_json("Calisthenics_app/data/challenges.json")
     challenges = [Challenge(**c) for c in challenges_data]
 
-    niveaux_data = charger_json("data/niveaux.json")
+    niveaux_data = charger_json("Calisthenics_app/data/niveaux.json")
     niveaux = [Niveau(**n) for n in niveaux_data]
 
-    positionnement_data = charger_json("data/positionnement.json")
+    positionnement_data = charger_json("Calisthenics_app/data/positionnement.json")
     positionnement = [TestPositionnement(**t) for t in positionnement_data]
 
     return {
